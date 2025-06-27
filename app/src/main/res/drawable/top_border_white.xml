@@ -1,0 +1,6 @@
+<!-- res/drawable/top_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorPrimary" /> <!-- Background color if needed -->
+    <stroke android:color="@color/white" android:width="2dp" /> <!-- Top border color and width -->
+    <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp"/> <!-- No padding on top, left, right, bottom -->
+</shape>
