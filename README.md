@@ -46,7 +46,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SimpleExpenseTracker-Android.git
+   git clone https://github.com/ankitprajapat42/SimpleExpenseTracker-Android.git
 
 2. Open the project in Android Studio
 3. Click Run ▶️ to build and launch the app on your emulator/device
