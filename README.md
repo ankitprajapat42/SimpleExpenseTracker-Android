@@ -34,9 +34,9 @@
 ---
 ## 📸 Screenshots
 <p align="center">
-  <img src="app/src/main/res/drawable/splash_screen" width="120" alt="App Logo" />
-  <img src="app/src/main/res/drawable/main_screen" width="120" alt="App Logo" />
-  <img src="app/src/main/res/drawable/about_screen" width="120" alt="App Logo" />
+  <img src="app/src/main/res/drawable/splash_screen" width="120" alt="Splash Screen" />
+  <img src="app/src/main/res/drawable/main_screen" width="120" alt="Home Screen" />
+  <img src="app/src/main/res/drawable/about_screen" width="120" alt="About Screen" />
 </p>
 
 
