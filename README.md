@@ -31,6 +31,12 @@
 | XML              | UI design           |
 | Material Design  | UI Components       |
 
+---
+## 📸 Screenshots
+<p align="center">
+  <img src="app/src/main/res/drawable/" width="120" alt="App Logo" />
+</p>
+
 
 ---
 
