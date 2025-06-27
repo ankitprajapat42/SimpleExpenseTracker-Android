@@ -1,7 +1,7 @@
 # 💸 SimpleExpenseTracker-Android
 
 <p align="center">
-  <img src="app_logo.png" width="120" alt="App Logo" />
+  <img src="app/src/main/res/drawable/app_logo.png" width="120" alt="App Logo" />
 </p>
 
 **SimpleExpenseTracker** is a lightweight and user-friendly Android application to track your daily income and expenses. Built using Java and SQLite, this app helps you manage your finances easily, view transaction history, and monitor your overall balance.
