@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:background="?attr/colorSecondary">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="About"
+            app:titleTextColor="@color/white"
+            android:background="?attr/colorPrimary"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- About Information Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar_about"
+        android:padding="16dp">
+
+        <!-- App Logo or Image (Optional) -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/app_logo"
+            android:layout_gravity="center"/>
+
+
+        <!-- App Name (Optional) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="?attr/badgeTextColor"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"/>
+
+
+
+
+
+        <!-- Description Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is an application that helps you manage your transactions and balance."
+            android:textSize="18sp"
+            android:textColor="?attr/badgeTextColor"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Developer Information -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/badgeTextColor"/>
+
+
+            <!-- Developer Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ankit Prajapat"
+                android:textStyle="bold|italic"
+                android:textSize="16sp"
+                android:textColor="?attr/textFillColor"/>
+
+        </LinearLayout>
+
+
+        <!-- Contact Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For any queries or feedback, feel free to contact us at:"
+            android:textSize="16sp"
+            android:textColor="?attr/badgeTextColor"
+            android:layout_marginTop="8dp"/>
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ankitprajapat9414gmail.com"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="?attr/textFillColor" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

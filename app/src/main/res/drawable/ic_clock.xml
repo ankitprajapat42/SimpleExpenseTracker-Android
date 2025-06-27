@@ -1,0 +1,10 @@
+<!-- In res/drawable/ic_access_time.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="?attr/badgeTextColor"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2ZM12,19C7.58,19 4,15.42 4,12C4,8.58 7.58,5 12,5C16.42,5 19,8.58 19,12C19,15.42 16.42,19 12,19ZM12,7V12.09L15.3,14.29L16.71,12.88L12,9.17L7.29,12.88L8.7,14.29L12,12.09V7H12Z" />
+</vector>

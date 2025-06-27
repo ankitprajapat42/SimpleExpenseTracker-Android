@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Notebook ka white background with black border -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M4,3h16a1,1 0 0 1 1,1v16a1,1 0 0 1 -1,1h-16a1,1 0 0 1 -1,-1v-16a1,1 0 0 1 1,-1z" />
+
+    <!-- First horizontal line -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="0.8"
+        android:fillColor="@color/black"
+        android:pathData="M6,7h12" />
+
+    <!-- Second horizontal line -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="0.8"
+        android:fillColor="@color/black"
+        android:pathData="M6,11h12" />
+
+    <!-- Third horizontal line -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="0.8"
+        android:fillColor="@color/black"
+        android:pathData="M6,15h12" />
+
+</vector>

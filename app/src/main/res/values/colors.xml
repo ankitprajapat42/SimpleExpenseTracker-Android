@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#333</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sky_blue">#036ADE</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#29B329</color>
+    <color name="statusBar_bg_light">#85A0BD</color>
+    <color name="statusBar_bg_dark">#000</color>
+    <color name="purple">#AD1457</color>
+    <color name="dilogBox_bg_dark">#888</color>
+    <color name="dilogBox_bg_light">#fff</color>
+    <color name="blue">#001DFB</color>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Light Mode Theme -->
+    <style name="Base.Theme.ExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="android:statusBarColor">@color/statusBar_bg_light</item>
+        <item name="badgeTextColor">@color/black</item>  <!-- For Simple text color -->
+        <item name="colorSecondary">@color/background_light</item>
+        <item name="colorPrimaryVariant">@color/green</item> <!-- For Credit text color -->
+        <item name="colorOnPrimary">@color/red</item> <!-- for Debit Text Color -->
+        <item name="textFillColor">@color/sky_blue</item> <!-- for Title Color -->
+        <item name="backgroundColor">@color/dilogBox_bg_light</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.ExpenseTracker" parent="Base.Theme.ExpenseTracker" />
+
+</resources>
